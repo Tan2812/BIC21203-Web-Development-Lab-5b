@@ -1,0 +1,68 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+    font-family: Arial, sans-serif;
+    background-image: url('school.jpg'); /* Replace with your background image path */
+    background-size: cover; /* Ensure the background image covers the entire page */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center; /* Center the content inside the container */
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background for better readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center table horizontally */
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Centering text in table headers */
+.center-text {
+    text-align: center;
+}
+
+
+/* Style for the logout button */
+.logout-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.logout-btn:hover {
+    background-color: #0056b3;
+}
